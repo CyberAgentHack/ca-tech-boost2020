@@ -1,0 +1,155 @@
+body {
+  font-size: 14px;
+  box-sizing: border-box;
+  line-height: 1.4;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+    Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+h1 {
+  /*線の種類（実線） 太さ 色*/
+  border-bottom: solid 3px black;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+  color: #229a9d;
+}
+
+.header {
+  text-align: center;
+  font-size: 2.5em;
+  background: #000 url("../img/header_bg.png") repeat;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.skillTable__wrapper {
+  display: block;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin: 40px 40px;
+}
+
+.skillTable {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 1500px;
+}
+
+.occupation th {
+  height: 52px;
+  color: #fff;
+  text-align: center;
+}
+
+.skillTable th,
+.skillTable td {
+  width: 240px;
+  word-wrap: break-word;
+}
+
+.skillTable th {
+  vertical-align: middle;
+}
+
+.skillTable td {
+  padding: 8px 4px;
+  border-right: #c2c2c2 1px solid;
+  border-bottom: #c2c2c2 1px solid;
+}
+
+th.table__label {
+  width: 50px;
+  color: #fff;
+  background-color: #2c2c2c;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+ul li {
+  margin: 0 0 8px 1rem;
+  position: relative;
+}
+
+ul li::before {
+/*
+  content: "・";
+*/
+  position: absolute;
+  left: -1rem;
+}
+
+ul li ul li {
+  margin: 2px 0 0 10px;
+}
+
+/* color setting */
+
+.occupation th:nth-child(2) {
+  background-color: #31a4d6;
+  border-right: 1px solid #31a4d6;
+}
+.occupation th:nth-child(3) {
+  background-color: #22c0c0;
+  border-right: 1px solid #22c0c0;
+}
+.occupation th:nth-child(4) {
+  background-color: #e6c542;
+  border-right: 1px solid #e6c542;
+}
+.occupation th:nth-child(5) {
+  background-color: #e6a242;
+  border-right: 1px solid #e6a242;
+}
+.occupation th:nth-child(6) {
+  background-color: #e45b71;
+  border-right: 1px solid #e45b71;
+}
+.occupation th:nth-child(7) {
+  background-color: #a83e5c;
+  border-right: 1px solid #a83e5c;
+}
+.occupation th:nth-child(8) {
+  background-color: #5a2748;
+  border-right: 1px solid #5a2748;
+}
+.occupation th:nth-child(9) {
+  background-color: #626063;
+  border-right: 1px solid #626063;
+}
+
+.level2 td:nth-child(2),
+.level1 td:nth-child(2) {
+  border-top: #31a4d6 4px solid;
+}
+.level2 td:nth-child(3),
+.level1 td:nth-child(3) {
+  border-top: #22c0c0 4px solid;
+}
+.level2 td:nth-child(4),
+.level1 td:nth-child(4) {
+  border-top: #e6c542 4px solid;
+}
+.level2 td:nth-child(5),
+.level1 td:nth-child(5) {
+  border-top: #e6a242 4px solid;
+}
+.level2 td:nth-child(6),
+.level1 td:nth-child(6) {
+  border-top: #e45b71 4px solid;
+}
+.level2 td:nth-child(7),
+.level1 td:nth-child(7) {
+  border-top: #a83e5c 4px solid;
+}
+.level2 td:nth-child(8),
+.level1 td:nth-child(8) {
+  border-top: #5a2748 4px solid;
+}
+.level2 td:nth-child(9),
+.level1 td:nth-child(9) {
+  border-top: #626063 4px solid;
+}
