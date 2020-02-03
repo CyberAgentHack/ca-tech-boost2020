@@ -6,11 +6,6 @@ body {
     Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
-h1 {
-  /*線の種類（実線） 太さ 色*/
-  border-bottom: solid 3px black;
-}
-
 a:link,
 a:visited,
 a:active,
@@ -30,7 +25,14 @@ a:hover {
   display: block;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
-  margin: 40px 40px;
+  margin: 24px 40px 40px;
+}
+
+.information {
+  border: 1px solid #c2c2c2;
+  border-radius: 4px;
+  margin: 0 0 24px;
+  padding: 8px;
 }
 
 .skillTable {
@@ -113,12 +115,12 @@ ul li ul li {
   border-right: 1px solid #a83e5c;
 }
 .occupation th:nth-child(8) {
-  background-color: #5a2748;
-  border-right: 1px solid #5a2748;
+  background-color: #702355;
+  border-right: 1px solid #702355;
 }
 .occupation th:nth-child(9) {
-  background-color: #626063;
-  border-right: 1px solid #626063;
+  background-color: #4F2C76;
+  border-right: 1px solid #4F2C76;
 }
 
 .level2 td:nth-child(2),
@@ -147,9 +149,9 @@ ul li ul li {
 }
 .level2 td:nth-child(8),
 .level1 td:nth-child(8) {
-  border-top: #5a2748 4px solid;
+  border-top: #702355 4px solid;
 }
 .level2 td:nth-child(9),
 .level1 td:nth-child(9) {
-  border-top: #626063 4px solid;
+  border-top: #4F2C76 4px solid;
 }
